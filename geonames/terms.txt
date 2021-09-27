@@ -18178,7 +18178,7 @@ Sultanpur
 AFN-Sendemast Hirschlanden
 Ciceuri
 Zhaogou
-Raceworkload Reservoir
+Racetrack Reservoir
 Lewters Crossroad
 Bois de Baulche
 Santo Domingo
@@ -37023,7 +37023,7 @@ Tetto Giuta
 No. 7 Well
 Talbisoi
 Laguna Nixtamalapan
-Bearworkload Canyon
+Beartrack Canyon
 Korsgarden nordre
 Evans Bridge
 Walker Gap
