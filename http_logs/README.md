@@ -45,8 +45,6 @@ This workload allows to overwrite the following parameters with Benchmark 0.8.0+
 * `cluster_health` (default: "green"): The minimum required cluster health.
 * `ingest_pipeline`: Only applicable for `--test-procedure=append-index-only-with-ingest-pipeline`, selects which ingest
 node pipeline to run. Valid options are `'baseline'` (default), `'grok'`  and `'geoip'`. For example: `--test-procedure=append-index-only-with-ingest-pipeline --workload-params="ingest_pipeline:'baseline'" `
-* `runtime_script_grok`: If defined the test_procedure loads the `unparsed` set of documents, indexing the `@timestamp` and the raw `message` field. All of the other fields are declared as `runtime` fields extracting the value using a script.
-* `runtime_source`: Specifies the way that `runtime_script_grok` loads values to grok. The default is `_source` which loads from `_source`. Other options are `wildcard` which loads from a `wildcard` field and `keyword` which loads from a keyword field.
 * `error_level` (default: "non-fatal"): Available for bulk operations only to specify ignore-response-error-level.
 
 ### License
